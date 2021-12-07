@@ -1,10 +1,24 @@
-<% @letters.each do |letter| %>
-  <h2 class="letters"><%= letter.capitalize %></h2>
-<% end %>
-<p>What is the longest word can you find?</p>
-<form action="score" method="post">
-  <input type="text" name="word">
-  <input type="submit" value="Play">
-  <%= hidden_field_tag :authenticity_token, form_authenticity_token %>
-  <%= hidden_field_tag :letters, @letters %>
-</form>
+<div class="container">
+  <div class="title">
+    <h1>Longest Word Game</h1>
+  </div>
+  >
+  <div class="center">
+    <div class="letters">
+      <% @letters.each do |letter| %>
+        <h1 class="letter"><%= letter.capitalize %></h1>
+      <% end %>
+    </div>
+  </div>
+  <div class="center">
+    <div class="form">
+      <p class ="question">What is the longest word can you find?</p>
+      <div class="center">
+        <form action="score" method="post">
+          <input type="text" name="word" class="input">
+          <input type="submit" value="Play" class="submit-btn btn">
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
