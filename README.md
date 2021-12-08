@@ -1,24 +1,36 @@
-# README
+# 📚 Longest Word Game
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Fun game you should play.<br>
 
-Things you may want to cover:
+<img width="1043" alt="Screen Shot 2021-12-08 at 7 31 09" src="https://user-images.githubusercontent.com/88181896/145127982-f4cca6e7-c167-4529-9446-375464c2fce7.png">
 
-* Ruby version
 
-* System dependencies
+https://user-images.githubusercontent.com/88181896/145128011-3555e5ab-bb39-4711-8bc0-1a7607ec7c66.mov
 
-* Configuration
 
-* Database creation
+<br>
+App home: https://anju-longest-word-game.herokuapp.com
+   
 
-* Database initialization
+## Getting Started
+### Setup
 
-* How to run the test suite
+Install gems
+```
+bundle install
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+### Run a server
+```
+rails s
+```
 
-* Deployment instructions
+## Built With
+- [Rails 6](https://guides.rubyonrails.org/) - Backend / Front-end
+- [Heroku](https://heroku.com/) - Deployment
 
-* ...
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+This project is licensed under the MIT License
